@@ -1,0 +1,41 @@
+issues in the application
+--------------------------
+1. checkout is possible without adding any product in the cart.
+
+
+installation needed
+-------------------
+* install PyCharm ide
+
+* commands to install various packages
+
+1. pip install selenium
+
+2. pip install xlrd
+
+3. pip install pytest-html
+
+4. pip install pytest
+
+5. pip install python
+
+* download everything from github and create a pycharm project and copy all the files in that particular project
+ for checking the execution after installing all the necessary above packages.
+
+* Install Chromedriver executable file and paste the "chromedriver.exe" file in the scripts folder
+ of the Python to run the chrome driver without any issues.
+
+* If required then give absolute path of excel files by modifying the already present path of the excel file in the function.
+
+* for execution of all the test cases at once, right click on the Test_Cases python directory and click on the copy path
+reference and click on absolute path, then open run cmd and follow the next instructions.
+i. cd {the copied absolute path}, with the curly brackets for changing the directory of command prompt.
+ii. pytest -vs ---> this will run all the test cases one by one
+                        OR
+    pytest -vs testfilename for execution of a particular test case.
+
+*pytest -vs --html=../Reports/report.html (command for generating test reports in html format for all the test cases at once)
+
+
+
+--------------------I Hope I have given all the necessary steps in this file for your reference-------------------------
